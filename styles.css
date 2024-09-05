@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: verdana;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 12px;
+  filter: drop-shadow(1px 1px 0.5px black);
+}
+
+.welcome-screen {
+  background: url(Myselfie.jpg);
+  background-position: center;
+  height: 800px;
+}
+
+main {
+  height: 600px;
+  background-color: lightgreen;
+}
+
+footer {
+  color: grey;
+  background-color: lightgrey;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
